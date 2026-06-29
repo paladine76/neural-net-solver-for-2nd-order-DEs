@@ -30,7 +30,7 @@ class MLP(tf.Module):
                 shape=[layer_sizes[i], layer_sizes[i+1]])) for i in range(len(layer_sizes)-1)
         ]
         self.bs = [
-            tf.Variable(tf.random.normal([layer_sizes[i+1]])) for i in range(len(layer_sizes)-1)
+            tf.Variable(tf.zeros([layer_sizes[i+1]])) for i in range(len(layer_sizes)-1)
         ]
 
     @tf.function
