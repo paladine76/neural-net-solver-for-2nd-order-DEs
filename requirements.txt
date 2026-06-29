@@ -1,0 +1,12 @@
+# Core framework
+tensorflow==2.15.0
+
+# Numerical computing
+numpy==1.24.4
+
+# Visualisation
+matplotlib>=3.8.0
+
+# Notebooks
+jupyter>=1.0.0
+ipykernel>=6.0.0
