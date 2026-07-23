@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+type: software
+title: "Neural Network Solver for 2nd-Order Differential Equations (TensorFlow Implementation)"
+abstract: >-
+  The original TensorFlow 2 implementation of a general-purpose physics-informed
+  neural network (PINN) solver for 2nd-order ordinary and partial differential
+  equations, demonstrated on a damped harmonic oscillator and the 1D heat equation.
+  The network is trained without any labelled solution data, purely by minimizing
+  the differential equation's residual together with its initial and boundary
+  conditions. Establishes the extensible DEProblem interface pattern reused across
+  all later PINN projects in this portfolio.
+authors:
+  - family-names: Hardiansyah
+    given-names: Irzam
+    affiliation: "Karolinska Institutet"
+repository-code: "https://github.com/paladine76/neural-net-solver-for-2nd-order-DEs"
+url: "https://github.com/paladine76/neural-net-solver-for-2nd-order-DEs"
+keywords:
+  - physics-informed neural networks
+  - differential equations
+  - TensorFlow
+  - scientific machine learning
+license: MIT 
+version: 1.0.0   
+date-released: "2026-06-29"   
